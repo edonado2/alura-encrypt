@@ -1,0 +1,76 @@
+
+body{
+    background-color: #F3F5FC;
+}
+
+p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.nav{
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: start;
+}
+
+.col-2{
+    background-color: #ffff;
+    border-radius: 10%;
+    padding: 30px;
+    margin: 20px;
+}
+
+.col-1{
+    margin: 20px;
+}
+
+.raw-text{
+    border: none;
+    background: none;
+    margin: 20px;
+}
+
+.encrypt-btn{
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    background: #00308F;
+    color: #ffff;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.decrypt-btn{
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.initial-msg{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.encrypted-msg{
+    text-align: center;
+}
