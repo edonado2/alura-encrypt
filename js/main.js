@@ -32,12 +32,11 @@ encrypt.addEventListener("click", (e) => {
         encryptedText += char;
       }
     }
-    
+
     rawText.value = "";
   
     if (encryptedText.trim() !== "") {
       resultCard.innerHTML = `
-        <img src="${defaultImage}" alt="muneco" srcset="">
         <h2 class="encrypted-msg">${encryptedText}</h2>
       `;
     } else {
